@@ -1,0 +1,19 @@
+{
+  "name": "backend-technical-exam",
+  "version": "1.0.0",
+  "description": "web app for fullstack technical exam",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Reynan S. Delizo (Applicant)",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongoose": "^7.0.3",
+    "mongoose-sequence": "^5.3.1"
+  }
+}
